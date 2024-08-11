@@ -1,8 +1,8 @@
 #!/bin/bash
  
 # 隧道相关设置（去掉下面变量前面#启用，否则使用临时隧道）
-# export TOK=${TOK:-'xxx'} 
-# export ARGO_DOMAIN=${ARGO_DOMAIN:-'xxx'} 
+export TOK=${TOK:-'eyJhIjoiN2I3ZTBkNDc5OGFmYWYzOGY2NWFmMmFhMzc3YzA3ZmEiLCJ0IjoiMDgzNzNjN2ItODM0NS00YTZlLWExNzgtNDBiNzRiYWFkMjM3IiwicyI6Ik5qSTBaV1UzTURRdFlXRXdNUzAwWXpOaExXSm1ZbVF0TjJNNU9HUmtaamcyTnpGaSJ9'} 
+export ARGO_DOMAIN=${ARGO_DOMAIN:-'anh.cqurr.com'} 
 
 # 哪吒相关设置
 export NEZHA_SERVER=${NEZHA_SERVER:-''}
@@ -11,9 +11,9 @@ export NEZHA_PORT=${NEZHA_PORT:-'443'}
 export NEZHA_TLS=${NEZHA_TLS:-'1'}  # 1启用tls,0关闭tls
 
 # 节点相关设置
-export TMP_ARGO=${TMP_ARGO:-'vms'}  # 节点类型,可选vls,vms,rel
-export VL_PORT=${VL_PORT:-'8002'}   # vles 端口
-export VM_PORT=${VM_PORT:-'8001'} # vmes 端口
+export TMP_ARGO=${TMP_ARGO:-'vls'}  # 节点类型,可选vls,vms,rel
+export VL_PORT=${VL_PORT:-'8001'}   # vles 端口
+#export VM_PORT=${VM_PORT:-'8002'} # vmes 端口
 export SUB_NAME=${SUB_NAME:-'VPS'} # 节点名称
 
 # reality相关设置(不能同时开游戏,需要吧python端口改成别的)
